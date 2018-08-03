@@ -1,0 +1,18 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Times New Roman", "sans-serif";
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #1e2129;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}

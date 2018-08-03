@@ -1,0 +1,19 @@
+.Header {
+    background-color: black;
+    color: white;
+    min-height: 70px;
+    
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.mainLogo {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}

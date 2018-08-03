@@ -1,0 +1,29 @@
+.SearchBox {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    
+}
+
+.Search {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    flex-grow: 2;
+    height: 50px;
+    padding: 0 10px;
+    outline: 0;
+    border-bottom: 2px solid white;
+    position: relative;
+    z-index: 1000;
+}
+
+.Search:focus {
+    
+    border-color: #01d277;
+}
+

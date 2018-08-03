@@ -1,0 +1,89 @@
+
+.MoviePage {
+    color: #e9e9e9;
+    
+    width: 100%;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Backdrop {
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MainInfo {
+    display: flex;
+    align-items: flex-start;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.MoviePage h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+
+.posterWrapper {
+    width: 300px;
+    background-color: black;
+}
+
+.Poster {
+    width: 300px;
+}
+
+
+.Detail {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    display: flex;
+    flex-direction: column;
+    align-self: stretch; 
+    margin: 0;
+    padding: 0 25px; 
+}
+
+.Detail p {
+    font-size: 26px;
+    margin: 5px 0;
+}
+
+.Detail span {
+    color: #01d277;
+    padding-left: 15px; 
+}
+
+.Detail .overview {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.Control {
+    display: flex;
+    margin-top: auto;
+}
+
+.Control button {
+    padding: 20px 10px;
+    background-color: transparent;
+    border: none;
+    color: #e9e9e9;
+    cursor: pointer;
+}
+
+.Control button:hover {
+    background-color: rgba(0,0,0, 1);
+    color: #01d277;
+}
+
+.Control button.visited {
+    background-color: rgba(0,0,0, 1);
+    color: #f1e940;
+}

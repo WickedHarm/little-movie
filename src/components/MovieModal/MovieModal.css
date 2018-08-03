@@ -1,0 +1,21 @@
+.MovieModal {
+    position: absolute;
+    width: 250px;
+    right: -140%;
+    top: 25%;
+
+    background-color: rgb(243, 243, 223);
+    color: black;
+    border-radius: 13px;
+    padding: 10px 20px;
+    box-shadow: 15px 10px 42px 0px rgba(0,0,0,0.5);
+    z-index: 980;
+}
+
+.Open {
+    display: block;
+}
+
+.Close {
+    display: none;
+}

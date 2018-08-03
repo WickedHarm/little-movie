@@ -1,0 +1,17 @@
+.MovieCard {
+    position: relative;
+    background-color: #0c0f19;
+    color: white;
+    /* overflow: hidden; */
+
+    cursor: pointer;
+}
+
+.MovieCard:hover img {
+    transform: scale(0.95)
+}
+
+.MovieCard img {
+    width: 100%;
+    transition: all .3s;
+}

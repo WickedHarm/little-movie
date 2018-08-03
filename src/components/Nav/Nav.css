@@ -1,0 +1,17 @@
+.Nav {
+    list-style: none;
+    
+    font-size: 25px;
+}
+
+.Nav a,
+.Nav a.active {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Nav a:hover,
+.Nav a.cative:hover {
+    color: #01d277;
+}

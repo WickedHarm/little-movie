@@ -1,0 +1,16 @@
+.GridSection {
+    margin-bottom: 65px;
+    
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.MoviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
