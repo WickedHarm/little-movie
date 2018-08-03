@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-import Header from "./components/Header/Header";
+import Header from "./Layout/Header/Header";
+import Footer from "./Layout/Footer/Footer";
 import Search from "./containers/Search/Search/Search";
 import Home from "./Pages/Home/Home";
 import MoviePage from "./Pages/MoviePage/MoviePage";
@@ -21,6 +22,7 @@ class App extends Component {
               <Route exact path="/movies/:id" component={MoviePage}/>
               <Route path="*" component={NotFound}/>
             </Switch>
+            {/* <Footer /> */}
           </div>
       </BrowserRouter>
     );

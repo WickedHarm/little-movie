@@ -3,7 +3,7 @@ import React from "react";
 import mainLogo from "../../assest/main-logo.svg";
 import classes from "./Header.css";
 
-import Nav from "../Nav/Nav";
+import Nav from "../../components/Nav/Nav";
 
 class Header extends React.Component {
     render() {

@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { axiosFetchMovies } from "../../axios";
 
 import MovieCard from "../../components/MovieCard/MoveCard";
+import Spinner from "../../components/Spinner/Spinner";
 import classes from "./MoviesGrid.css";
 import typography from "../../typography.css";
 import { API_KEY } from "../../api_key";
@@ -65,17 +66,22 @@ class MoviesGrid extends React.Component {
     }
     
     render() {
-
-        return (
-            <div className={classes.GridSection}>
-                <div className={classes.content}>
-                    <h2 className={typography.heading2}>{this.props.sectionName}</h2>
-                    <div className={classes.MoviesGrid}>
-                        {this.state.movies}
+        if (this.state.movies) {
+            const movList = this.state.movies.length ? this.state.movies : <h2>Nothing</h2>
+            return (
+                <div className={classes.GridSection}>
+                    <div className={classes.content}>
+                        <h2 className={typography.heading2}>{this.props.sectionName}</h2>
+                        <div className={classes.MoviesGrid}>
+                            {movList}
+                        </div>
                     </div>
                 </div>
-            </div>
-        )
+            )
+        }else {
+            return <Spinner />
+        }
+        
     }
 }
 

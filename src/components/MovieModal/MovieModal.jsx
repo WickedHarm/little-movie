@@ -10,6 +10,9 @@ class MovieModal extends React.Component {
             <div className={classes.MovieModal + " " + ClN}>
                 {content}
             </div>
+        //     <div className={classes.MovieModal + " " + classes.Open}>
+        //     {this.props.children}
+        // </div>
         )
     }
 }

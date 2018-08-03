@@ -23,12 +23,13 @@ class MovieCard extends React.Component {
         return (
             <div className={classes.MovieCard} onClick={() => this.clickHandler(id)} onMouseOver={() => this.modalHandler(true)} onMouseLeave={() => this.modalHandler(false)}>
                 <img src={imgPath + poster_path} alt="movieCard"/>
-                <div>
-                    <span>{vote_average}</span>
-                    <h3>{title}</h3>
-                    <span>{release_date}</span>
-                </div>
+                
                 <MovieModal show={this.state.showModal}>
+                    <div>
+                        <span>{vote_average}</span>
+                        <h3>{title}</h3>
+                        <span>{release_date}</span>
+                    </div>
                     <p>{overview}</p>
                 </MovieModal>    
                 
