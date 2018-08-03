@@ -13,7 +13,7 @@ import { API_KEY } from "../../api_key";
 import classes from "./MoviePage.css";
 import noPhoto from "../../assest/noPhotoMovie.png";
 
-const AsyncRecommendations = AsyncCMP( () => import("../MoviesGrid/MoviesGrid") );
+const AsyncRecommendations = AsyncCMP( () => import("../../containers/MoviesGrid/MoviesGrid") );
 
 
 class MoviePage extends React.Component {

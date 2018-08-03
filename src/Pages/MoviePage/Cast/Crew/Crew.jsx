@@ -18,7 +18,7 @@ class Crew extends React.Component {
             id: item.id
         });
         let producersCount = 0;
-        crew.slice(0, 20).forEach(item => {
+        crew.slice(0, 30).forEach(item => {
             switch(item.job) {
                 case "Producer":
                     if(producersCount < 3) {

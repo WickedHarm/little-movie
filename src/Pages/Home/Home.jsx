@@ -1,7 +1,7 @@
 import React from "react";
 
 import MovieGrid from "../../containers/MoviesGrid/MoviesGrid";
-import WithError from "../HOC/WithError";
+import WithError from "../../components/HOC/WithError";
 import {axiosFetchMovies} from "../../axios";
 
 const Home = (props) => {

@@ -1,0 +1,11 @@
+.NotFound {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.NotFound h1 {
+    color: yellowgreen;
+    font-size: 45px;
+    margin-top: 15%;
+}
